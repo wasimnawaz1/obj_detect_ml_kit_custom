@@ -5,25 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/load_image_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/load_image" />
-
-    <ImageView
+   <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
         android:scaleType="fitCenter" />
 
     <TextView
-        android:id="@+id/classification_result_textview"
+        android:id="@+id/result_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/click_the_image_to_detect"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/load_image_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/click_the_image_to_classify_it"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="@string/load_image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
 </LinearLayout>

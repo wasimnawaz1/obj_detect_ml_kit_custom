@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Horse/Human Classify</string>
+    <string name="app_name">ML Kit Custom Obj_Detect</string>
     <string name="load_image">Load Image</string>
-    <string name="click_the_image_to_classify_it">Click the image to classify it.</string>
+    <string name="click_the_image_to_detect">To detect, click the image</string>
 </resources>

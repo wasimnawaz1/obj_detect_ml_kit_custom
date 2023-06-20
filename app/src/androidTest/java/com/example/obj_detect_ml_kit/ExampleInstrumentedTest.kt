@@ -1,4 +1,4 @@
-package com.example.horse_human_classify
+package com.example.obj_detect_ml_kit
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
